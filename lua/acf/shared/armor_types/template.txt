@@ -1,0 +1,11 @@
+-- Name
+-- Source Link
+
+local Armor = ACF.RegisterArmorType("", "RHA")
+
+function Armor:OnLoaded()
+	self.Name		 = ""
+	self.Density     =  -- g/cm3
+	self.Tensile     =  -- MPa
+	self.Description = ""
+end

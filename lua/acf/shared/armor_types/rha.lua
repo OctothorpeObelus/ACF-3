@@ -11,7 +11,7 @@ end
 function Armor:OnLoaded()
 	self.Name		 = "Rolled Homogenous Armor"
 	self.Density     = 7.84 -- g/cm3
-	self.Tensile     = 1111
+	self.Tensile     = 1111 -- MPa
 	self.Description = "The standard of durability and weight."
 end
 
