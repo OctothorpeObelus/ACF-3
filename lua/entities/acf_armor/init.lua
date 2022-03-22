@@ -22,7 +22,7 @@ do -- Spawning and Updating
 
 			Data.Width     = math.Clamp(Data.Width, 0.25, 420)
 			Data.Height    = math.Clamp(Data.Height, 0.25, 420)
-			Data.Thickness = math.Clamp(Data.Thickness, 5, 1000)
+			Data.Thickness = math.Clamp(Data.Thickness, 5, ACF.MaximumArmor) --Test this.
 			Data.Size      = Vector(Data.Width, Data.Height, Data.Thickness * 0.03937)
 		end
 
